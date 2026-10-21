@@ -1,0 +1,30 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.venv/
+venv/
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+
+# Editors and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local logs
+*.log
+
+# Local backups
+*.backup
+
+# Local Windows telemetry: review before publishing
+data/normalized/windows_process_events.json
+
+# Reports generated from local Windows telemetry
+reports/incident_report_windows.md

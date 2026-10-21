@@ -1,0 +1,98 @@
+﻿[
+  {
+    "event_id": "EVT-1001",
+    "timestamp": "2026-10-21T08:00:00Z",
+    "host": "WS-001",
+    "username": "jdoe",
+    "source_ip": "192.0.2.45",
+    "event_type": "login_failure",
+    "process": "",
+    "command_line": "",
+    "details": "Failed logon attempt",
+    "source": "synthetic"
+  },
+  {
+    "event_id": "EVT-1002",
+    "timestamp": "2026-10-21T08:00:15Z",
+    "host": "WS-001",
+    "username": "jdoe",
+    "source_ip": "192.0.2.45",
+    "event_type": "login_failure",
+    "process": "",
+    "command_line": "",
+    "details": "Failed logon attempt",
+    "source": "synthetic"
+  },
+  {
+    "event_id": "EVT-1003",
+    "timestamp": "2026-10-21T08:00:30Z",
+    "host": "WS-001",
+    "username": "jdoe",
+    "source_ip": "192.0.2.45",
+    "event_type": "login_failure",
+    "process": "",
+    "command_line": "",
+    "details": "Failed logon attempt",
+    "source": "synthetic"
+  },
+  {
+    "event_id": "EVT-1004",
+    "timestamp": "2026-10-21T08:01:00Z",
+    "host": "WS-001",
+    "username": "jdoe",
+    "source_ip": "192.0.2.45",
+    "event_type": "login_success",
+    "process": "",
+    "command_line": "",
+    "details": "Successful logon following repeated failures",
+    "source": "synthetic"
+  },
+  {
+    "event_id": "EVT-1005",
+    "timestamp": "2026-10-21T08:05:00Z",
+    "host": "WS-002",
+    "username": "asmith",
+    "source_ip": "192.0.2.88",
+    "event_type": "process_creation",
+    "process": "powershell.exe",
+    "command_line": "powershell.exe -EncodedCommand SYNTHETIC_TEST_VALUE",
+    "details": "Encoded-command indicator included for detection testing",
+    "source": "synthetic"
+  },
+  {
+    "event_id": "EVT-1006",
+    "timestamp": "2026-10-21T08:07:00Z",
+    "host": "WS-002",
+    "username": "asmith",
+    "source_ip": "192.0.2.88",
+    "event_type": "privilege_change",
+    "process": "account_management",
+    "command_line": "",
+    "details": "User added to a privileged group in simulated telemetry",
+    "source": "synthetic"
+  },
+  {
+    "event_id": "EVT-1007",
+    "timestamp": "2026-10-21T08:10:00Z",
+    "host": "WS-003",
+    "username": "mgarcia",
+    "source_ip": "192.0.2.120",
+    "event_type": "login_success",
+    "process": "",
+    "command_line": "",
+    "details": "Routine successful logon",
+    "source": "synthetic"
+  },
+  {
+    "event_id": "EVT-1008",
+    "timestamp": "2026-10-21T08:12:00Z",
+    "host": "WS-003",
+    "username": "mgarcia",
+    "source_ip": "192.0.2.120",
+    "event_type": "process_creation",
+    "process": "notepad.exe",
+    "command_line": "notepad.exe",
+    "details": "Routine application launch",
+    "source": "synthetic"
+  }
+]
